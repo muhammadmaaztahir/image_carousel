@@ -1,0 +1,108 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    color: #2c3e50;
+    background-color: rgb(210, 210, 210);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 204, 0);
+    cursor: pointer;
+    position: absolute;
+    color: #ecf0f1;
+    font-size: 3rem;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .carousel_slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+  }
+  
+  .content_inner_slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev_button {
+    left: 0;
+  }
+  
+  .next_button {
+    right: 0;
+  }
+  
+  .dots {
+    display: flex;
+    margin: 5rem 0 0 0;
+  }
+  
+  .dot {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #34495e;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+
+  .form>label{
+    font-size: 18px;
+    font-family: "Orbitron";
+    font-weight: 600;
+    margin-left: 10px;
+  }

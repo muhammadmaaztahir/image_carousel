@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Image Carousel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Dancing+Script:wght@700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Open+Sans:wght@700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="carousel">
+    <div class="carousel_slider">
+      <div class="content_inner_slider">
+        <img src="./Assets/Img1.jpg" alt="" class="img">
+        <img src="./Assets/Img2.jpg" alt="" class="img">
+        <img src="./Assets/Img3.jpg" alt="" class="img">
+        <img src="./Assets/Img4.jpg" alt="" class="img">
+        <img src="./Assets/Img5.jpg" alt="" class="img">
+        <img src="./Assets/Img6.jpg" alt="" class="img">
+        
+      </div>
+      <button class="prev_button">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </button>
+      <button class="next_button">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </button>
+    </div>
+    <ul class="dots">
+      <li class="dot" value="0"></li>
+      <li class="dot" value="1"></li>
+      <li class="dot" value="2"></li>
+      <li class="dot" value="3"></li>
+      <li class="dot" value="4"></li>
+      <li class="dot" value="5"></li>
+    </ul>
+    <div class="form">
+      <input type="checkbox" class="auto_slide" id="slide">
+      <label for="slide">Auto Slide</label>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
